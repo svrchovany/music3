@@ -1,0 +1,245 @@
+/**
+ *                <!----------------------------------!>
+ *     |Essa porra foi originalmente criada por mim: Cissuras / Trovejo.
+ *     |Tem neguinho sem vergonha me plagiando ent�o vai tomar no cu.
+ *     |Se essa porra continuar eu paro de disponibilizar e o plagiador 
+ *     |vai se ferrar na m�o. Aviso dado, o pr�ximo pl�gio...
+ *     |EU DERRUBO O DESGRA�ADO.  
+ *     |N�o libero minhas skins pra ningu�m pegar mais detalhes e nem nada.
+ *     |Quer exclusividade? Fa�a voc� sem mesmo. Sem inspira��es FDP.
+ *                     | TOME VERGONHA NA SUA CARA
+ *                            E SEJA CRIATIVO.
+ *                     |� http://cissuras.tumblr.com/
+ *                      |�      http://trovejo.tk/
+ *            |CONHE�O MINHAS BASES S� DE OLHAR, AVISO DADO.                          
+ *                <!----------------------------------!>
+ **/
+
+
+@font-face {font-family: "Consolas";src: url('http://static.tumblr.com/zeaszfj/im0moivym/consola.ttf')}
+#playerW{width:2430px;left:0px !important;}
+#player #miniBaseCenter{width:300px; height:25px; left:30px;z-index:0; position:absolute; background:url(sizerAndVol.png); background-position: bottom !important; background-repeat: repeat-x !important;}
+
+@font-face {font-family: "aramis_regular";src: url('http://goo.gl/zV4T2E')}
+#player,#player a{
+        color:#000000; font-size: 0px !important;
+        font-family: aramis_regular !important;}
+
+@font-face {font-family: "aramis_regular";src: url('http://goo.gl/zV4T2E')}
+#player .text {
+        font-size: 10px !important;
+        font-family: aramis_regular !important;
+}
+
+
+
+@font-face {font-family: "Mako-Regular";src: url('http://goo.gl/iYB5xH')}
+#player #title {
+        color:#000000; !important;
+        font-size: 14px !important;
+        font-family: Mako-Regular !important;
+}
+
+
+@font-face {font-family: "Mako-Regular";src: url('http://goo.gl/iYB5xH')}
+#player .text{
+        margin-top: 0.40px !important; 
+        z-index: 0.40 !important; 
+        font-size:10px !important;
+	color:#000000; !important;
+	font-family: Mako-Regular !important;
+}
+#player, #player a{
+	color:#8a8a8a !important;
+	text-decoration: none !important;
+}
+	#player, #player a:hover{
+		text-decoration:underline !important;
+}
+
+@font-face {font-family: "Consolas";src: url('http://goo.gl/kkmPKG')}
+#player .mainImage{ background:url(http://goo.gl/lhBM40)}
+
+#player #baseLeft{ width:188px; }
+#player #baseRight{ width:145px;}
+#player .button{  width:22px; }
+#player #play{ background:url(); }
+#player #play,#player #pause{ left:32px; }
+#player #previous{ left:-99999px; }
+#player #next{ left:-99999px; }
+#player #jp-title{ left:115px; width:110px;}
+#player #title{ left:115px; }
+#player #tooltip{ right:118px; }
+#player #timer{left:2px;}
+#player #list{ right:5px; }
+
+/* Setting/Others Buttons */
+#player #repeatButton a, #player #repeatOnceButton a, 
+#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a {
+    background-image:url('shuffleRepeatBtn.png');
+    background-repeat:no-repeat;
+    display: block;
+    width: 22px;
+    height: 25px;
+    outline: 0;
+}
+
+#player #repeatButton {left:-99999999999999999999999999999999999999999999999999px; position:absolute; z-index: 8;}
+#player #repeatButton a {background-position:0px 0px !important;}
+#player #repeatButton a:active {background-position:0px -25px !important;}
+
+#player #repeatOnceButton {left:-9999999999999999999999999999999999999999999999px; position:absolute; z-index: 8;}
+#player #repeatOnceButton a {background-position:-44px 0px !important;}
+#player #repeatOnceButton a:active {background-position:-44px -25px !important;}
+
+#player #repeatAllButton {left:-99999999999999999999999999999999999999999999999px; position:absolute; z-index: 8;}
+#player #repeatAllButton a {background-position:-22px 0px !important;}
+#player #repeatAllButton a:active {background-position:-22px -25px !important;}
+
+#player #shuffleButtonOff {right:-999999999999999999999999999999999999999999999px; position:absolute; z-index: 8;}
+#player #shuffleButtonOff a {background-position:-66px 0px !important;}
+#player #shuffleButtonOff a:active {background-position:-66px -25px !important;}
+
+#player #shuffleButtonOn {right:-9999999999999999999999999999999999999999999999px; position:absolute; z-index: 8;}
+#player #shuffleButtonOn a {background-position:-88px 0px !important;}
+#player #shuffleButtonOn a:active {background-position:-88px -25px !important;}
+
+
+#player #seeker{ right:316px; display:none;}
+#player #seekerBase{ border-color:#ffffff; }
+#player #seekerBuffered{ background-color:#ffffff; }
+#player #seekerSliderBase{ background-color:#ffffff; }
+
+#player #volume{ width:70px; right:33px; }
+#player #volumeSlider{ width:14px; background:url(sizerAndVol.png); }
+
+#playlist{ 
+        font-family: Calibri !important;
+	font-size: 9px;
+	text-transform: uppercase;
+	color: #757575 !important;
+}
+
+
+#playlist .module{ 
+        font-family: Calibri !important;
+        font-size: 9px !important;
+	border:none !important;
+	background:#ffffff !important;
+	border-top: 1px solid transparent !important;
+        border-left: 1px solid transparent !important;
+        border-right: 1px solid transparent !important;
+}
+
+
+
+#playlist h3{
+        text-align: right !important; 
+        text-shadow:0px 0px 1px #FFFFFF !important;
+        font-size: 12px !important; 
+        font-family: Calibri !important;
+        background-color:#FFFFFF !important;
+        color: #E8E8E8 !important;
+}
+
+
+#playlistContainer{
+        font-size: 9px !important; 
+        font-family: Calibri !important;
+	top:21px !important;
+}
+
+
+#playlist .items{
+        font-size: 10px !important; 
+        font-family: Calibri !important;
+	list-style-type:square !important;
+}
+
+
+#playlist .item{
+        font-size: 10px !important; 
+        font-family: Calibri !important;
+	margin:0 !important;
+	padding:6px 5px !important;
+}
+
+
+#playlist .even{
+        background-color: transparent !important;
+}
+
+
+#playlist .focus{
+        font-size: 10px !important; 
+        text-shadow:0px 0px 1px #363636 !important; 
+        background-color:transparent !important; 
+        color:#000 !important;
+        font-weight: bold;
+}
+
+
+@font-face {font-family: "bluebold";src: url('http://goo.gl/Ac5zST')}
+#player #list{left:24px !important; width:14px !important; }
+#player #list{width:19px !important; top:1px !important;
+background:url(http://goo.gl/JlTqit) !important;}
+#player #play, #player #pause{left:42px; width:22px !important; background:url(http://goo.gl/oHSnB3) !important;}
+#player #play{left:42px; background:url(http://goo.gl/OCNpQi) !important;}
+#player #previous{left:-99999px !important; width:0px !important; background:url(http://goo.gl/R3ubSB) !important;}
+#player #next{left:-99999px !important; width:0px !important; background:url(http://goo.gl/moHa1e) !important;}
+#player #title{left:-99999px !important; color:#fff !important; font-family: bluebold !important;
+font-size:0px !important; text-align:left !important; text-transform:uppercase !important;}
+#player #timer{left:-99999px !important; text-align:left !important; width:30px !important;}
+#player #tooltip{right:196px;}
+#player #baseLeft{width:93px;}
+#player #baseRight{width:145px;}
+#player .button{width:26px;}
+
+
+
+/* Below CSS are for Retina */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (-ms-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2) {
+
+       	#player #repeatButton a, #player #repeatOnceButton a, 
+		#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a  {
+                background: url('shuffleRepeatBtn-X2.png') no-repeat;
+                background-size: 110px 50px;
+            }
+        #player #play  {
+            background: url('playBtn-X2.png') no-repeat;
+            background-size: 23px 50px;
+        }
+        #player .mainImage  {
+            background: url('main-X2.png') no-repeat;
+            background-size: 450px 50px;
+        }
+        #player #miniBaseCenter, #player #volumeSlider  {
+            background: url('sizerAndVol-X2.png') no-repeat;
+            background-size: 14px 50px;
+        }
+        #playlist h3  {
+            background: url('bar-X2.png') no-repeat;
+            background-size: 8px 22px;
+        }
+}
+
+::-webkit-scrollbar-thumb:vertical{background-color:#AAAAAA;height:12px;width:11px;-webkit-border-radius:5px;border:3px solid #FFFFFF;}
+::-webkit-scrollbar-thumb:horizontal{background-color:#AAAAAA;height:12px !important;border:3px solid #FFFFFF;-webkit-border-radius:5px;}
+::-webkit-scrollbar {height:12px;width:11px;background-color:#FFFFFF;}
+
+
+
+                    <!----------------- -----------------!>
+                |ORIGINALMENTE CRIADA POR: Cissuras / Trovejo  
+                          |TOME VERGONHA NA SUA CARA
+                                E SEJA CRIATIVO.
+                         |� http://cissuras.tumblr.com/
+                         |�     http://trovejo.tk/
+                |CONHE�O MINHAS BASES S� DE OLHAR, AVISO DADO.   
+          |SE EU VER PL�GIO NESSA PORRA, EU PARO DE DISPONIBILIZAR -'-                           
+                    <!----------------- -----------------!>
